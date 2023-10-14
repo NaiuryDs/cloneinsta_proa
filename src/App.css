@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -14,7 +16,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background: linear-gradient(45deg, #F26430, #F25050, #D93B65, #D9328E, #9833A6);
+
 }
 
 .App-link {
@@ -32,7 +35,200 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.fil {
+  /*div que pega todo o códico*/
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.buut {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 150px;
+  transition: .4s;
+
+}
+
+.buut:hover {
+  background-color: #234874;
+  transition: .4s;
+
+}
+
+.input-login {
+  font-size: 20px;
+  width: 400px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+
+}
+
+
+.title {
+
+  color: #262626;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.esqueceu {
+  color: #007bff;
+  margin-top: 10px;
+  font-size: 14px;
+  display:block;
+  cursor: pointer;
+  
+}
+.esqueceu:hover{
+  text-decoration: underline;
+  color: #0056b3;
+}
+
+.inscreva{
+  color: #007bff;
+  font-size: 16px;
+  margin-top: 20px;
+
+  
+}
+
+.inscreva a{
+  text-decoration: none;
+}
+
+.navbar{
+  background-color: #333;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/*feed*/
+
+.perfil {
+  border: solid 1px rgb(212, 212, 212);
+  position: fixed;
+  top: -0%;
+  left: 00px;
+  height: 100%;
+  background-color: #ffffff;
+  width: 350px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  color: black;
+
+}
+
+.n5,
+.n51 {
+  
+  top: 170px;
+  left: 20px;
+  margin-top: 7%;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+  color: black;
+
+}
+
+.nome1 {
+  position: fixed;
+  left: 50px;
+  cursor: pointer;
+  top: 30px;
+  font-size: 40px;
+}
+
+.n5:hover {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  width: 250px;
+  padding: 10px;
+}
+
+.n51:hover {
+  background-color: #e4e4e4;
+  border-radius: 10px;
+  width: 250px;
+  padding: 10px;
+}
+.home-app{
+  background-color: #ccc;
+}
+
+.barra{
+  position: fixed;
+  background-color: white;
+  width:375px;
+  height: 1000px;
+  top:-60px;
+  left: 1500px;
+}
+
+
+/*primeiro post*/
+.primeiropost{
+  color: black;
+  margin: 20px;
+  
+}
+
+.post {
+  position: relative;
+  top: -900px;
+  left: 200px;
+  border: 1px;
+  width: 45.2%;
+  color: black;
+  position: relative;
+  top: 10px;
+}
+
+
+.foto {
+  width: 100%;
+}
+
+.kl {
+  margin-left: 20px;
+
+}
+
+
+.salva {
+  margin-left: 450px;
+}
+
+.icon i{
+  margin-left: 15px;
+}
+
+
+
